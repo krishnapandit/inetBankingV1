@@ -1,8 +1,7 @@
 package com.inetBanking.functionalTestCases;
 
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
+
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
