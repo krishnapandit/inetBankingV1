@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 126.247 s <<< FAILURE! - in TestSuite
+com.inetBanking.functionalTestCases.TC_AddNewCustomer_003.addnewcustomer  Time elapsed: 36.246 s  <<< FAILURE!
+java.lang.NullPointerException
+
+com.inetBanking.functionalTestCases.TC_testcase_001.loginTest01  Time elapsed: 9.041 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.inetBanking.functionalTestCases.TC_testcase_001.loginTest01(TC_testcase_001.java:41)
+

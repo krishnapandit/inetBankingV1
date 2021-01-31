@@ -1,0 +1,28 @@
+<Configuration status="WARN">
+
+	//Definding log file path
+	<Properties>
+		<Property name="bassPath">./logs</Property>
+	</Properties>
+
+
+	<Appenders>
+		<RollingFile name="File" fileName="${bassPath}/prints.log"
+			filePattern="${bassPath}/prints-%d{yyyy-MM-dd}.log">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+			<SizeBasedTriggeringPolicy size="500" />
+		</RollingFile>
+
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+	</Appenders>
+	
+	<Loggers>
+		<Root level="trace">
+			<AppenderRef ref="File" />
+		</Root>
+	</Loggers>
+</Configuration>

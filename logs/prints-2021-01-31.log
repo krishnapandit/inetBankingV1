@@ -1,0 +1,5 @@
+13:01:58.922 [main] INFO  java.lang.Class - Entered password
+13:02:05.269 [main] INFO  java.lang.Class - Clicked on login button
+13:02:06.444 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+13:02:12.215 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.PoolThreadCache - Freed 27 thread-local buffer(s) from thread: AsyncHttpClient-1-2
+13:02:12.215 [AsyncHttpClient-1-4] DEBUG io.netty.buffer.PoolThreadCache - Freed 4 thread-local buffer(s) from thread: AsyncHttpClient-1-4
